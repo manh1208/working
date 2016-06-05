@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Guess The US President</string>
+    <string name="play">PLAY</string>
+    <string name="try_again">TRY AGAIN</string>
+    <string name="back_home">HOME</string>
+    <string name="share_facebook">SHARE</string>
+    <string name="sound">Sound: ON</string>
+    <string name="more">More</string>
+    <string name="facebook">Facebook</string>
+    <string name="contact">About</string>
+    <string name="contentdescription">Logo</string>
+    <string name="score">99</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8272403203330390/5224434669</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-8272403203330390/6701167865</string>
+    <string name="LEADERBOARD_Tocdo_ID">CgkIw-e0ncETEAIQBg</string>
+    <string name="LEADERBOARD_DemNguoc_ID">CgkIw-e0ncETEAIQBw</string>
+
+    <string name="sign_in_explanation">Sign with Google to upload your achievements and share with friends.</string>
+    <string name="you_are_signed_in">You are signed in with Google.</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="click_me">Click me!</string>
+    <string name="you_won">OK! You won!</string>
+    <string name="signin_other_error">There was an issue with sign in. Please try again later.</string>
+    <string name="app_id">670345016259</string>
+    <string name="app_facebook_id">531044040411153</string>
+    <string name="sender_id">670345016259</string>
+
+</resources>

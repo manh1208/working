@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_id": "guess-the-president-f402c",
+    "project_number": "670345016259",
+    "name": "Guess The President"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:670345016259:android:ce564e8436dd7b6f",
+        "client_id": "android:com.superapp.guessthepresidentushistoryquiztrivia",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.superapp.guessthepresidentushistoryquiztrivia",
+          "certificate_hash": []
+        }
+      },
+      "oauth_client": [],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-74924091-3"
+          }
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 1
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gamebackground">
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pbTimer"
+        android:max="300"
+        android:thumb="@drawable/thumb"
+        android:progressDrawable="@drawable/progress"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/score"
+        android:textSize="80sp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txtScore"
+        android:textStyle="bold"
+        android:textColor="@color/textcolorred"
+        android:layout_below="@id/pbTimer"/>
+
+    <ImageView
+        android:layout_width="450sp"
+        android:layout_height="450sp"
+        android:src="@drawable/abrahamlincoln"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/contentdescription"
+        android:layout_below="@+id/txtScore"
+        android:layout_marginTop="10sp"
+        android:id="@+id/ivLogo"
+        android:background="@null"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:layout_alignParentBottom="true"
+        android:text="Đáp an 3"
+        android:textColor="@color/textcolorwhite"
+        android:background="@color/button_answer_2"
+        android:layout_marginTop="@dimen/answer_margin_top"
+        android:textSize="30sp"
+        android:id="@+id/btnAnswer3"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:text="Đáp an 2"
+        android:textColor="@color/textcolorwhite"
+        android:background="@color/button_answer_2"
+        android:layout_marginTop="@dimen/answer_margin_top"
+        android:textSize="30sp"
+        android:id="@+id/btnAnswer2"
+        android:layout_above="@id/btnAnswer3"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:layout_above="@id/btnAnswer2"
+        android:text="Đáp an 1"
+        android:layout_marginTop="@dimen/answer_margin_top"
+        android:textColor="@color/textcolorwhite"
+        android:background="@color/button_answer_2"
+        android:textSize="30sp"
+        android:id="@+id/btnAnswer1"/>
+
+
+
+</RelativeLayout>
