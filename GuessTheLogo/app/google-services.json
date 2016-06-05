@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_id": "guess-the-logo-1246",
+    "project_number": "259039851577",
+    "name": "Guess The Logo"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:259039851577:android:914d460639ca8171",
+        "client_id": "android:com.superapp.guessthelogoduoihinhbatthuonghieuvietnam",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.superapp.guessthelogoduoihinhbatthuonghieuvietnam",
+          "certificate_hash": []
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "259039851577-q7qudmvi02qp9nbsvh20ibarl1tg455c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.superapp.guessthelogoduoihinhbatthuonghieuvietnam",
+            "certificate_hash": "53A3D5EB758769D86F086A8CFF2D64C7D1221058"
+          }
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-74924091-2"
+          }
+        },
+        "cloud_messaging_service": {
+          "status": 2,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 1
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

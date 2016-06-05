@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".activity.MainActivity"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="@dimen/logo"
+        android:layout_height="@dimen/logo"
+        android:src="@drawable/logo"
+        android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_marginTop="20sp">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rank"
+            android:layout_centerHorizontal="true" android:textColor="@color/textcolorwhite"
+            android:textSize="@dimen/menu_item_text_size"
+            android:textStyle="bold" android:onClick="onRankClick"
+            android:background="@null"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_marginTop="@dimen/menu_margin">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hot_game"
+            android:layout_centerHorizontal="true" android:textColor="@color/textcolorwhite"
+            android:textSize="@dimen/menu_item_text_size"
+            android:textStyle="bold" android:onClick="onHotGameClick"
+            android:background="@null"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_marginTop="@dimen/menu_margin">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/facebook"
+            android:layout_centerHorizontal="true" android:textColor="@color/textcolorwhite"
+            android:textSize="@dimen/menu_item_text_size"
+            android:textStyle="bold" android:onClick="onFacebookClick"
+            android:background="@null"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_marginTop="@dimen/menu_margin">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/contact"
+            android:layout_centerHorizontal="true" android:textColor="@color/textcolorwhite"
+            android:textSize="@dimen/menu_item_text_size"
+            android:textStyle="bold" android:onClick="onContactClick"
+            android:background="@null"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/button_menu_margin"
+        android:orientation="horizontal">
+        <ImageButton
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/button_margin_left_right"
+            android:layout_marginRight="@dimen/button_margin_left_right"
+            android:src="@drawable/countdown"
+            android:background="@null"
+            android:id="@+id/btnPlayCountdown"
+
+            />
+        <ImageButton
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/button_margin_left_right"
+            android:layout_marginRight="@dimen/button_margin_left_right"
+            android:src="@drawable/tocdo"
+            android:background="@null"
+            android:id="@+id/btnPlayTocdo"
+
+            />
+    </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/main_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+    </LinearLayout>
+</RelativeLayout>

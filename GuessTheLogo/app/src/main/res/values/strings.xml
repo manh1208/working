@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Trắc Nghiệm Đoán Logo Việt</string>
+    <string name="rank_list">Bảng xếp hạng</string>
+    <string name="rank">Đánh giá</string>
+    <string name="hot_game">Game Đỉnh</string>
+    <string name="facebook">Facebook</string>
+    <string name="contact">Liên hệ</string>
+    <string name="contentdescription">Logo</string>
+    <string name="score">99</string>
+
+    <string name="LEADERBOARD_Tocdo_ID">CgkIuejp_8QHEAIQAA</string>
+    <string name="LEADERBOARD_DemNguoc_ID">CgkIuejp_8QHEAIQBw</string>
+
+    <string name="sign_in_explanation">Sign with Google to upload your achievements and share with friends.</string>
+    <string name="you_are_signed_in">You are signed in with Google.</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="click_me">Click me!</string>
+    <string name="you_won">OK! You won!</string>
+    <string name="signin_other_error">Đăng nhập không thành công. Vui lòng thử lại sau</string>
+    <string name="app_id">259039851577</string>
+
+    <string name="sender_id">259039851577</string>
+</resources>
